@@ -1,6 +1,7 @@
-Flask
+Flask==2.2.3
 requests
 py7zr
+gunicorn
 pandas
-scikit-learn
 numpy
+scikit-learn
