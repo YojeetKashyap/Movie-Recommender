@@ -1,6 +1,8 @@
 Flask==2.2.3
 Werkzeug==2.2.3
 requests
+pandas==1.5.3
+pickle
 py7zr
 gunicorn
 numpy
