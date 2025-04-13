@@ -1,9 +1,9 @@
-Werkzeug==2.2.3
+werkzeug==2.2.3
 py7zr
 gunicorn
-joblib
-numpy
-scikit-learn
+joblib=1.2.0
+numpy==1.24.2
+scikit-learn==1.2.1
 flask==2.2.5
 requests==2.31.0
 py7zr==0.20.5
