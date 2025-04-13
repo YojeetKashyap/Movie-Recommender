@@ -3,6 +3,5 @@ Werkzeug==2.2.3
 requests
 py7zr
 gunicorn
-pandas==1.5.3
 numpy
 scikit-learn
