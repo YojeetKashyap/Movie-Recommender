@@ -1,6 +1,7 @@
 Werkzeug==2.2.3
 py7zr
 gunicorn
+joblib
 numpy
 scikit-learn
 flask==2.2.5
