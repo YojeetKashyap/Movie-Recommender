@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import pickle
 import requests
+import joblib
 import os
 import py7zr
 app = Flask(__name__)
@@ -20,8 +21,8 @@ if not os.path.exists(similarity_file):
 
 
 # Load data
-movies = pickle.load(open('movies.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+movies = joblib.load(open('movies.pkl', 'rb'))
+similarity = joblib.load(open('similarity.pkl', 'rb'))
 
 # TMDb API to fetch poster (you can replace this with your own key or method)
 def fetch_poster(title):
